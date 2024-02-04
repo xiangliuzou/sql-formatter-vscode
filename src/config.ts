@@ -33,6 +33,7 @@ export const createConfig = (
     denseOperators: extensionSettings.get<boolean>('denseOperators'),
     newlineBeforeSemicolon: extensionSettings.get<boolean>('newlineBeforeSemicolon'),
     paramTypes: extensionSettings.get<ParamTypes>('paramTypes'),
+    onelineIdentityLimit: extensionSettings.get<number>('onelineIdentityLimit'),
   };
 };
 

@@ -5,3 +5,4 @@ out/
 *.vsix
 
 .vscode-test-web
+*.code-workspace
